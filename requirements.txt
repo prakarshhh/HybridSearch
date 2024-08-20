@@ -19,6 +19,7 @@ pandas
 openai
 langchain-groq
 duckduckgo_search==5.3.1b1
+pinecone-client
 pymupdf
 arxiv
 wikipedia
