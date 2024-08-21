@@ -4,7 +4,8 @@ from pinecone import Pinecone, ServerlessSpec
 from pinecone_text.sparse import BM25Encoder
 from langchain_huggingface import HuggingFaceEmbeddings
 import os
-
+import nltk
+nltk.download('punkt')
 # Initialize the Pinecone client
 api_key = "5467e6f2-b135-4a07-b237-b92fb467feb3"
 index_name = "hybrid-search-langchain-pinecone"
